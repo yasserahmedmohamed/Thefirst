@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yasser.thefirst.Main3_4Activity">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add A word for delete"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/te"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/word"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/te"
+
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/word"
+        android:layout_marginTop="60dp"
+        android:text="DELETE"
+        android:onClick="det"
+        android:textSize="30dp"
+        />
+
+</RelativeLayout>
